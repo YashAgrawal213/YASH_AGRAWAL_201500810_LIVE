@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+    <style>
+        #header
+        {
+            width: 100%;
+            display: flex;
+            color:white;
+            text-align: center;
+            align-items: center;
+        }
+        #logo
+        {
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: rgb(255, 70, 101);
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #sec-1
+        {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #sec-1 main
+        {
+            width: 50%;
+            height: 500px;
+            background-image:url(https://th.bing.com/th/id/OIP.EcFPtIOz4Px34HXhuvHCAQHaEl?pid=ImgDet&rs=1) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        aside
+        {
+            width:48%;
+            
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        aside .art
+        {
+            width:100%;
+            background-color: white;
+            display: flex;
+            color: darkslategray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        aside .art2
+        {
+            font-size: 20px;
+            color: lightgray;
+        }
+
+        .footer
+        {
+            height: 100px;
+            padding-top: 30px;
+            text-align: center;
+        }
+        .section-3 span
+        {
+            font-size: 30px;
+            padding: 0px 30px ;
+            font-weight: bold;
+        }
+
+   
+
+
+    nav ul
+    {
+        list-style: none;
+        display: flex;
+    }
+    nav ul li a
+    {
+        text-decoration: none;
+        color: black;
+        padding: 20px 20px;
+        font-size: 20px;
+        transition: 1s;     
+    }
+    nav ul li a:hover
+    {
+        background-color: black;
+        color: white;
+    }
+
+
+    </style>
+</head>
+<body>
+    
+   <header id="header">
+        <div id="logo">R</div>
+        <nav>
+            <ul>
+                <li><a href="#" style="color: red;">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Elements</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"style="color: red;">Buy Rogan</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <section id="sec-1"> 
+        
+        <aside>
+            <br><br><br><br>
+            
+            <article id="art-1" class="art" style="font-size: 10px;"><h4><span style="color: red;">70% Off </span> for first 3 months</h4></article>
+            
+            <article id="art-1" class="art" style="font-size: 90px;">Digital Agency with Excellence Services.</article>
+            <br>
+            <article id="art-1" class="art2" >The 3 golden rules professional graphic designer don't</article>
+        </aside>
+        <main></main>
+    </section>
+    <section class="section-3">
+        <div class="footer">
+            <span id="name"></span>
+            <span id="roll-no"></span>
+            <span id="university"></span>
+            <span id="date"></span>
+        </div>
+      </section>
+      <script src="./index.js"></script>
+</body>
+</html>
